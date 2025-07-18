@@ -99,18 +99,18 @@ contactForm.addEventListener('submit', async function(e) {
     } catch (error) {
         console.error('Form submission error:', error);
         
-        // Remove loading and show error
+        
         contactForm.classList.remove('loading');
         contactForm.classList.add('error');
         
-        // Reset error state after 3 seconds
+        
         setTimeout(() => {
             contactForm.classList.remove('error');
         }, 3000);
     }
 });
 
-// Navbar background change on scroll
+
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
@@ -120,7 +120,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Intersection Observer for fade-in animations
+
 const observerOptions = {
     threshold: 0.2
 };
@@ -133,13 +133,13 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-// Observe all sections
+
 document.querySelectorAll('section').forEach(section => {
     section.classList.add('fade-out');
     observer.observe(section);
 });
 
-// Add CSS for fade animations
+
 const style = document.createElement('style');
 style.textContent = `
     .fade-out {
