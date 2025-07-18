@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nithin Talari - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('YOUR_PUBLIC_KEY');
+        })();
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">NITHIN TALARI</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <a href="resume.png" class="resume-btn" download="resume.png">
+                    <i class="fas fa-download"></i> Resume
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <div class="text-content">
+                <h1>Hi, I'm Nithin Talari</h1>
+                <h2 class="roles">
+                    <span class="role">Python Developer</span>
+                    <span class="role">AI Enthusiast</span>
+                </h2>
+                <p>Computer Science student with strong programming and problem-solving abilities</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="cta-primary">Get in Touch</a>
+                    <a href="#projects" class="cta-secondary">View Projects</a>
+                </div>
+            </div>
+            <div class="image-content" data-tilt>
+                <img src="profile.jpg" alt="Nithin Talari" class="profile-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a B.Tech in Computer Science and Engineering student at Sri Venkateswara College of Engineering and Tech, with a strong foundation in programming and a passion for AI technologies. Currently maintaining a CGPA of 8.5, I combine academic excellence with practical experience in full-stack development and machine learning.</p>
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="edu-item">
+                        <h4>B.Tech in Computer Science and Engineering</h4>
+                        <p>Sri Venkateswara College of Engineering and Tech</p>
+                        <p>Expected 2024</p>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Intermediate (MPC)</h4>
+                        <p>Blue Moon Junior College, Andhra Pradesh</p>
+                        <p>2020-2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-content">
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-tilt>Python</div>
+                    <div class="skill-item" data-tilt>Java</div>
+                    <div class="skill-item" data-tilt>HTML</div>
+                    <div class="skill-item" data-tilt>CSS</div>
+                    <div class="skill-item" data-tilt>JavaScript</div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-tilt>Git/GitHub</div>
+                    <div class="skill-item" data-tilt>Google Colab</div>
+                    <div class="skill-item" data-tilt>VS Code</div>
+                    <div class="skill-item" data-tilt>Anaconda</div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Core</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-tilt>Data Structures</div>
+                    <div class="skill-item" data-tilt>OS</div>
+                    <div class="skill-item" data-tilt>Networks</div>
+                    <div class="skill-item" data-tilt>OOP</div>
+                    <div class="skill-item" data-tilt>DBMS</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-tilt>
+                <div class="project-image">
+                    <img 
+                        src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&auto=format&fit=crop"
+                        alt="Medical Insurance Project"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="project-content">
+                    <h3>Medical Insurance Price Prediction Model</h3>
+                    <p>Built a machine learning model to predict medical insurance prices using Python and AI techniques.</p>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>Machine Learning</li>
+                        <li>Data Analysis</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/talarinith" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-tilt>
+                <div class="project-image">
+                    <img 
+                        src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&auto=format&fit=crop"
+                        alt="Trippy Booking System"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="project-content">
+                    <h3>Trippy (Traveller Booking System)</h3>
+                    <p>Designed and implemented a web-based booking system using Python, Django, HTML/CSS, JavaScript, and SQLite.</p>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>JavaScript</li>
+                        <li>SQLite</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/talarinith" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-tilt>
+                <div class="project-image">
+                    <img 
+                        src="https://images.unsplash.com/photo-1633613286991-611fe299c4be?w=800&auto=format&fit=crop"
+                        alt="Document Text Extractor"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="project-content">
+                    <h3>Document Text Extractor</h3>
+                    <p>Created a Python-based tool to extract and process text from documents and images using OCR techniques.</p>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>OCR</li>
+                        <li>Image Processing</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/talarinith" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements-section">
+        <h2>Achievements</h2>
+        <div class="achievements-grid">
+            <div class="achievement-card" data-tilt>
+                <i class="fas fa-trophy"></i>
+                <h3>NACK-TECH'22 Project Expo</h3>
+                <p>Winner (1st Place) at Global Institute of Engineering and Technology</p>
+            </div>
+            <div class="achievement-card" data-tilt>
+                <i class="fas fa-code"></i>
+                <h3>Coding Challenges</h3>
+                <p>Active participant in technical clubs and regularly solves coding challenges on GeeksforGeeks and LeetCode</p>
+            </div>
+            <div class="achievement-card" data-tilt>
+                <i class="fas fa-users"></i>
+                <h3>Leadership</h3>
+                <p>Led multiple project teams and mentored peers in coding challenges and academic projects</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=talarinithin0@gmail.com" target="_blank">talarinithin0@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://linkedin.com/in/talari-nithin" target="_blank">linkedin.com/in/talari-nithin</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/talarinith" target="_blank">github.com/talarinith</a>
+                </div>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" data-tilt>
+                <!-- Web3Forms Access Key -->
+                <input type="hidden" name="access_key" value="1a7aa4c5-ff5f-4036-964b-7ca1ec3b908d">
+                
+                <!-- Required Web3Forms Settings -->
+                <input type="hidden" name="from_name" value="Portfolio Contact Form">
+                <input type="hidden" name="redirect" value="false">
+                <input type="hidden" name="subject" value="New Contact Form Submission from Portfolio">
+                <input type="hidden" name="to_email" value="talarinithin0@gmail.com">
+                
+                <!-- Spam Protection -->
+                <input type="checkbox" name="botcheck" style="display: none;">
+                
+                <!-- Success/Error Messages -->
+                <div class="form-status-container">
+                    <div class="status-message success-message">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Message sent successfully! I'll get back to you soon.</p>
+                    </div>
+                    <div class="status-message error-message">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <p>Unable to send message. Please try again later.</p>
+                    </div>
+                </div>
+
+                <!-- Form Fields -->
+                <div class="form-group">
+                    <input 
+                        type="text" 
+                        name="name" 
+                        placeholder="Your Name" 
+                        required
+                        minlength="3"
+                        maxlength="50"
+                    >
+                </div>
+                <div class="form-group">
+                    <input 
+                        type="email" 
+                        name="email" 
+                        placeholder="Your Email" 
+                        required
+                    >
+                </div>
+                <div class="form-group">
+                    <textarea 
+                        name="message" 
+                        placeholder="Your Message" 
+                        required
+                        minlength="10"
+                        maxlength="1000"
+                    ></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="submit-btn">
+                    <span class="btn-text">Send Message</span>
+                    <span class="btn-loading">
+                        <i class="fas fa-spinner fa-spin"></i>
+                    </span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nithin Talari. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
